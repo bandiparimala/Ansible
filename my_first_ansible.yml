@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Testing the ansible first task
+      command: echo "Hello world!"
